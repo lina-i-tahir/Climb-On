@@ -1,0 +1,14 @@
+* {
+  margin: none;
+}
+
+a {
+  color: whitesmoke;
+  text-decoration: none;
+  margin-right: 10px;
+}
+section {
+  background-color: blanchedalmond;
+  text-align: left;
+  height: 30px;
+}

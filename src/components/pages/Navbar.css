@@ -1,0 +1,12 @@
+.navbar-container {
+  background-color: rgb(35, 35, 35);
+  height: 25px;
+  margin: 0;
+  padding: 5px;
+  text-align: right;
+  font-size: 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(194, 194, 194);
+}
