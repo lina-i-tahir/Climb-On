@@ -19,16 +19,16 @@ A rough idea of the website:
 End product:
 
 Home Page:
-![idea](src/assets/homepage.jpg)
+![homepage](src/assets/homepage.jpg)
 
 About Page:
-src/assets/aboutpage.jpg
+![aboutpage](src/assets/aboutpage.jpg)
 
 Climb Page:
-src/assets/climbpage.jpg
+![climbpage](src/assets/climbpage.jpg)
 
 Map Page
-src/assets/mappage.jpg
+![mappage](src/assets/mappage.jpg)
 
 ### User Stories
 
