@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationArrow } from "@fortawesome/free-solid-svg-icons";
-import "./Map.css";
+import "./MapPage.css";
 import {
   useJsApiLoader,
   GoogleMap,

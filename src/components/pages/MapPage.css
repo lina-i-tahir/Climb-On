@@ -1,0 +1,204 @@
+.direction-box {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  background: #232329;
+  padding: 3%;
+  margin: 5px;
+  color: azure;
+  top: 0%;
+  left: 0%;
+  border-radius: 20px;
+  width: 300px;
+  height: 300px;
+}
+
+.input-text {
+  height: 100px;
+  margin: 10px;
+  resize: none;
+  flex: 0 0 100px;
+}
+input[type="text"] {
+  height: 40px;
+  width: 250px;
+  margin: 0px 3px 1px 3px;
+  resize: none;
+  flex: 0 0 100px;
+  border: 2px solid #555555;
+  border-radius: 20px;
+}
+
+input[type="text"]:focus {
+  border: 2px solid #ffffff;
+}
+.direction-box-lower {
+  height: 200px;
+  margin: 10px;
+  resize: none;
+  flex: 0 0 100px;
+}
+.direction-box-lower p {
+  text-align: left;
+}
+
+.button {
+  background-color: #232329;
+  color: azure;
+  border: 1px solid #555;
+  border-radius: 20px;
+  margin: 5px;
+  padding: 10px;
+  /* transition-duration: 0.2s; */
+}
+
+.button:hover {
+  background-color: #232329;
+  border: 1px solid #ffffff;
+  color: azure;
+}
+
+.body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+}
+.map {
+  width: 100%;
+  height: 100vh;
+}
+.map-container {
+  width: 100%;
+  height: 100vh;
+}
+@media all and (min-width: 320px) and (max-width: 479px) {
+  .direction-box {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    background: #232329;
+    padding: 3%;
+    margin: 5px;
+    color: azure;
+    top: 3%;
+    left: 0%;
+    border-radius: 20px;
+    width: 180px;
+    height: 280px;
+  }
+
+  .input-text {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    resize: none;
+    flex: 0 0 100px;
+  }
+  input[type="text"] {
+    height: 30px;
+    width: 135px;
+    margin: 0px 3px 1px 3px;
+    resize: none;
+    flex: 0 0 100px;
+    border: 2px solid #555555;
+    border-radius: 20px;
+  }
+
+  input[type="text"]:focus {
+    border: 2px solid #ffffff;
+  }
+  .direction-box-lower {
+    position: absolute;
+    top: 33%;
+    margin: 0px;
+    resize: none;
+    flex: 0 0 100px;
+  }
+
+  .button {
+    background-color: #232329;
+    color: azure;
+    border: 1px solid #555;
+    border-radius: 20px;
+    margin: 3px;
+    padding: 10px;
+  }
+
+  .button:hover {
+    background-color: #232329;
+    border: 1px solid #ffffff;
+    color: azure;
+  }
+  .direction-box-lower p {
+    font-size: 20px;
+    text-align: left;
+  }
+}
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .direction-box {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    background: #232329;
+    padding: 3%;
+    margin: 5px;
+    color: azure;
+    top: 3%;
+    left: 0%;
+    border-radius: 20px;
+    width: 250px;
+    height: 250px;
+  }
+
+  .input-text {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    resize: none;
+    flex: 0 0 100px;
+  }
+  input[type="text"] {
+    height: 40px;
+    width: 205px;
+    margin: 0px 3px 1px 3px;
+    resize: none;
+    flex: 0 0 100px;
+    border: 2px solid #555555;
+    border-radius: 20px;
+  }
+
+  input[type="text"]:focus {
+    border: 2px solid #ffffff;
+  }
+  .direction-box-lower {
+    margin: 0px;
+    resize: none;
+    flex: 0 0 100px;
+  }
+
+  .button {
+    background-color: #232329;
+    color: azure;
+    border: 1px solid #555;
+    border-radius: 20px;
+    margin: 1px;
+    padding: 10px;
+  }
+
+  .button:hover {
+    background-color: #232329;
+    border: 1px solid #ffffff;
+    color: azure;
+  }
+  .direction-box-lower p {
+    font-size: 20px;
+    text-align: left;
+  }
+}

@@ -32,17 +32,19 @@ Map Page
 
 ### User Stories
 
-User will be able to view the the list of climbs under climbs section.
+User will be able to view the the list of climbs available under climbs section.
 
 A Google Map is found under Map, with current location of the user narrowed down, when clicked on the location icon.
 
-The Map will auto generate places when keyed in prompts.
+The Map will auto suggest places when keyed in prompts.
+
+User is able to copy and paste the coordinates from the climbs into the map, and it will show the route, distance and duration from origin to destination.
 
 ---
 
 ## Planning and Development Process
 
-Started the project with the idea of having a resource where a user can view the climbs.
+Started the project with the idea of having a resource where a user can view climbs, with map attached.
 
 ### Problem-Solving Strategy
 
@@ -56,6 +58,7 @@ Google the heck out of everything.
 ## APIs Used
 
 Openbeta: https://api.openbeta.io/
+Git: https://github.com/OpenBeta/openbeta-graphql
 Google Maps API
 
 ---
@@ -65,3 +68,5 @@ Google Maps API
 ---
 
 ## References
+
+Playground: https://lucasconstantino.github.io/graphiql-online/

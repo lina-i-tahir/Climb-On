@@ -6,7 +6,7 @@ const About = () => {
     <>
       <Home />
       <div className="about">
-        <h1>hey there, welcome to Climb On!</h1>
+        <h1>oh hey there!</h1>
         <p>
           We're a bunch of climbing enthusiasts on a mission to share the thrill
           of outdoor rock climbing with you. Whether you're a seasoned pro or a

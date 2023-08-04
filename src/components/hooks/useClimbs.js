@@ -2,7 +2,7 @@ import { useQuery, gql } from "@apollo/client";
 
 const GET_CLIMBS = gql`
   query MyQuery {
-    areas {
+    areas(filter: { area_name: { match: "Smith Rock" } }) {
       content {
         description
       }
@@ -26,3 +26,6 @@ export const useClimbs = () => {
     loading,
   };
 };
+
+// to test
+// areas(filter: { area_name: { match: "Smith Rock" } }) {

@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Passion+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&display=swap");
 
 body {
   margin: 0;
@@ -14,11 +14,20 @@ body {
 h1 {
   font-family: "Passion One", cursive;
 }
+.title {
+  font-family: "Passion One", cursive;
+}
 p {
+  font-family: "Caveat", cursive;
+  font-size: 25px;
+}
+li {
   font-family: "Caveat", cursive;
   font-size: 25px;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+@media (max-width: 1231px) {
 }
