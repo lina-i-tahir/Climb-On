@@ -1,6 +1,6 @@
 import "./App.css";
 import "./components/Button.css";
-import { Router, Routes, Link, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Home from "./components/pages/Home";
 import MapPage from "./components/pages/MapPage";
 import About from "./components/pages/About";

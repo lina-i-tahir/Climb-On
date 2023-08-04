@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import "./ClimbsList.css";
 import { useClimbs } from "../hooks/useClimbs";
+import ClimbSummary from "./ClimbSummary";
 
 const ClimbsList = () => {
-  // const [selectedValue, setSelectedValue] = useState();
+  const [selected, setSelected] = useState();
 
   const { error, loading, data } = useClimbs();
 
@@ -17,39 +18,40 @@ const ClimbsList = () => {
           onChange={(e) => {
             const findValue = data.areas?.find((x) => x.id === e.target.value);
             console.log(findValue);
-            // setSelectedValue(findValue);
+            setSelected(findValue);
           }}
           defaultValue="default"
         >
           <option value="default">Choose an option</option>
-          {/* {selectedValue
-          ? data.areas.map((climbs) => {
-              return (
-                // adding value === id
-                <option key={climbs.id} value={climbs.id}>
-                  {climbs.areaName}
-                </option>
+
+          {data.areas
+            ? data.areas.map((climbs) => {
+                return (
+                  <option key={climbs.id} value={climbs.id}>
+                    {climbs.areaName}
+                  </option>
                 );
               })
-            : null} */}
-
-          {data.areas.map((climbs) => {
-            return (
-              // adding value === id
-              <option key={climbs.id} value={climbs.id}>
-                {climbs.areaName}
-              </option>
-            );
-          })}
+            : null}
         </select>
       </div>
-
-      {/* {selectedValue} */}
+      {selected ? <ClimbSummary props={selected} /> : null}
     </>
   );
 };
 
 export default ClimbsList;
+
+//  {selectedValue
+// ? data.areas.map((climbs) => {
+//     return (
+//       // adding value === id
+//       <option key={climbs.id} value={climbs.id}>
+//         {climbs.areaName}
+//       </option>
+//       );
+//     })
+//   : null}
 
 // {selectedValue ? <CryptoSummary crypto={selectedValue} /> : null}
 

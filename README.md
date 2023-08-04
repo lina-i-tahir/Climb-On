@@ -13,24 +13,14 @@ A list of places where you can find climbing routes and a Google map for you to 
 
 ### Wireframes
 
-Your step by step planning sketch of your project, that you can post them as an image in here.
+Ideation:
+![src/assets/ProjectTwoWireFrame.png]
 
 ### User Stories
 
-A story of the project user, that explains the use of the project.
+User will be able to view the the list of climbs under climbs section.
 
-```
-Example:
-
-User must be able to:
-
-- View Example
-- Blablabla
-- Search Example
-- Fine Example
-- etc..
-
-```
+A Google Map is found under Map, with current location of the user narrowed down, when clicked on the location icon.
 
 ---
 
@@ -48,7 +38,8 @@ List unsolved problems which would be fixed in future iterations.
 
 ## APIs Used
 
-List your APIs you have used in this project and explain why did you use it.
+Openbeta: https://api.openbeta.io/
+Google Maps API
 
 ---
 

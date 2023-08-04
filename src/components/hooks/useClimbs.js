@@ -9,23 +9,13 @@ const GET_CLIMBS = gql`
       totalClimbs
       areaName
       id
+      metadata {
+        lng
+        lat
+      }
     }
   }
 `;
-// query MyQuery {
-//   areas {
-//     content {
-//       description
-//     }
-//     totalClimbs
-//     areaName
-//     id
-//     metadata {
-//       lng
-//       lat
-//     }
-//   }
-// }
 
 export const useClimbs = () => {
   const { error, loading, data } = useQuery(GET_CLIMBS);
