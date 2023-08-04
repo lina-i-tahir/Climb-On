@@ -13,8 +13,22 @@ A list of places where you can find climbing routes and a Google map for you to 
 
 ### Wireframes
 
-Ideation:
-![https://github.com/lina-i-tahir/climbing/blob/master/src/assets/ProjectTwoWireFrame.png]
+A rough idea of the website:
+/src/assets/ProjectTwoWireFrame.png
+
+End product:
+
+Home Page:
+src/assets/homepage.jpg
+
+About Page:
+src/assets/aboutpage.jpg
+
+Climb Page:
+src/assets/climbpage.jpg
+
+Map Page
+src/assets/mappage.jpg
 
 ### User Stories
 
@@ -22,19 +36,22 @@ User will be able to view the the list of climbs under climbs section.
 
 A Google Map is found under Map, with current location of the user narrowed down, when clicked on the location icon.
 
+The Map will auto generate places when keyed in prompts.
+
 ---
 
 ## Planning and Development Process
 
-A basic story of your planning and developing this project.
+Started the project with the idea of having a resource where a user can view the climbs.
 
 ### Problem-Solving Strategy
 
-What strategy did you use to solve your problems.
+Google the heck out of everything.
 
 ### Unsolved problems
 
-List unsolved problems which would be fixed in future iterations.
+- To have a better filter for different climbs by areas, climbing grade etc
+- To generate a link between the climb's latitude & longtitude with the map's input destination
 
 ## APIs Used
 
