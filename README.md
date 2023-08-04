@@ -14,7 +14,7 @@ A list of places where you can find climbing routes and a Google map for you to 
 ### Wireframes
 
 Ideation:
-![src/assets/ProjectTwoWireFrame.png]
+![https://github.com/lina-i-tahir/climbing/blob/master/src/assets/ProjectTwoWireFrame.png]
 
 ### User Stories
 
