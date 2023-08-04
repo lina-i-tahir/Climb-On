@@ -14,12 +14,12 @@ A list of places where you can find climbing routes and a Google map for you to 
 ### Wireframes
 
 A rough idea of the website:
-/src/assets/ProjectTwoWireFrame.png
+![idea](src/assets/ProjectTwoWireFrame.png)
 
 End product:
 
 Home Page:
-src/assets/homepage.jpg
+![idea](src/assets/homepage.jpg)
 
 About Page:
 src/assets/aboutpage.jpg
