@@ -1,10 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Passion+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
 body {
   margin: 0;
-  color: white;
   background: url(./assets/duotone.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -13,21 +11,20 @@ body {
 }
 h1 {
   font-family: "Passion One", cursive;
+  font-weight: 400;
 }
 .title {
   font-family: "Passion One", cursive;
 }
 p {
-  font-family: "Caveat", cursive;
+  font-family: "Forum", cursive;
   font-size: 25px;
 }
 li {
-  font-family: "Caveat", cursive;
+  font-family: "Forum", cursive;
   font-size: 25px;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
-@media (max-width: 1231px) {
 }

@@ -1,11 +1,15 @@
 .navbar-container {
-  background-color: rgb(35, 35, 35);
+  background-color: rgb(49, 101, 171);
   height: 25px;
-  margin: 0;
+  margin: 0px 0px 0px 0px;
   padding: 5px;
-  text-align: right;
   font-size: 20px;
   text-decoration: none;
+  text-align: right;
+  box-shadow: -2px 12px 31px -12px rgba(0, 0, 0, 0.59);
+
+  -webkit-box-shadow: -2px 12px 31px -12px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: -2px 12px 31px -12px rgba(0, 0, 0, 0.59);
 }
 a:hover {
   color: rgb(194, 194, 194);

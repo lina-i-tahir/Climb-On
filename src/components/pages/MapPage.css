@@ -44,7 +44,7 @@ input[type="text"]:focus {
 }
 
 .button {
-  background-color: #232329;
+  background-color: rgb(49, 101, 171);
   color: azure;
   border: 1px solid #555;
   border-radius: 20px;

@@ -1,6 +1,40 @@
+/* body {
+  background: url(./duotone.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: -2;
+} */
 .home {
-  margin-top: 40px;
+  margin-top: 10%;
   text-align: center;
-  font-size: 50px;
+  font-size: 100px;
+  font-weight: 700;
   color: rgb(35, 35, 35);
+}
+.home-background {
+  backdrop-filter: blur(2px);
+}
+.arrowIcon {
+  margin: 0% 0% 0% 50%;
+}
+@media all and (min-width: 320px) and (max-width: 479px) {
+  .home {
+    margin-top: 40%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(35, 35, 35);
+  }
+}
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .home {
+    margin-top: 20%;
+
+    text-align: center;
+    font-size: 80px;
+    font-weight: 700;
+    color: rgb(35, 35, 35);
+  }
 }

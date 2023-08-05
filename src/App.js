@@ -4,9 +4,9 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./components/pages/Home";
 import MapPage from "./components/pages/MapPage";
 import About from "./components/pages/About";
-
+import Error from "./components/pages/Error";
 import SharedLayout from "./components/pages/SharedLayout";
-import CList from "./components/pages/CList";
+import ClimbsMain from "./components/pages/ClimbsMain";
 
 function App() {
   return (
@@ -16,7 +16,8 @@ function App() {
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="mappage" element={<MapPage />} />
-          <Route path="clist" element={<CList />} />
+          <Route path="climbsmain" element={<ClimbsMain />} />
+          <Route path="*" element={<Error />} />
         </Route>
       </Routes>
     </div>

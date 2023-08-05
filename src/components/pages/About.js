@@ -1,12 +1,10 @@
 import "./About.css";
-import Home from "./Home";
 
 const About = () => {
   return (
     <>
-      <Home />
       <div className="about">
-        <h1>oh hey there!</h1>
+        <h1 className="about-h1">Oh hey there!</h1>
         <p>
           We're a bunch of climbing enthusiasts on a mission to share the thrill
           of outdoor rock climbing with you. Whether you're a seasoned pro or a

@@ -1,0 +1,136 @@
+.ClimbsList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+li {
+  margin: 10px 0px 0px -40px;
+  justify-content: center;
+  text-align: center;
+  list-style: none;
+  font-size: 140%;
+  width: 330px;
+  margin: 10px 0px 0px -40px;
+  padding: 3px;
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+li.title {
+  color: aliceblue;
+  margin: -18px 0px 0px -55px;
+  font-size: 170%;
+  padding: 25px;
+  background-color: rgb(49, 101, 171);
+  text-align: center;
+  justify-content: center;
+  overflow-x: hidden;
+}
+.climbCard {
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 5px;
+  width: 350px;
+  height: 400px;
+  text-align: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+  box-shadow: 17px 13px 47px -9px rgba(115, 115, 115, 0.6);
+  -webkit-box-shadow: 17px 13px 47px -9px rgba(115, 115, 115, 0.6);
+  -moz-box-shadow: 17px 13px 47px -9px rgba(115, 115, 115, 0.6);
+}
+
+@media all and (min-width: 320px) and (max-width: 479px) {
+  .ClimbsList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  li {
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    font-size: 120%;
+    width: 230px;
+    margin: 10px 0px 0px -40px;
+    padding: 3px;
+    background-color: #ffffff;
+    overflow-x: hidden;
+  }
+  li.title {
+    color: aliceblue;
+    margin: -18px 0px 0px -55px;
+    font-size: 130%;
+    padding: 25px;
+    background-color: rgb(49, 101, 171);
+    text-align: center;
+    justify-content: center;
+    overflow-x: hidden;
+  }
+  .climbCard {
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin: 5px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+    box-shadow: 17px 13px 47px -9px rgba(115, 115, 115, 0.6);
+    -webkit-box-shadow: 17px 13px 47px -9px rgba(115, 115, 115, 0.6);
+    -moz-box-shadow: 17px 13px 47px -9px rgba(115, 115, 115, 0.6);
+  }
+}
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .ClimbsList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  li {
+    margin: 10px 0px 0px -40px;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    font-size: 140%;
+    width: 330px;
+    margin: 10px 0px 0px -40px;
+    padding: 3px;
+    background-color: #ffffff;
+    overflow-x: hidden;
+  }
+  li.title {
+    color: aliceblue;
+    margin: -18px 0px 0px -55px;
+    font-size: 130%;
+    padding: 25px;
+    background-color: rgb(49, 101, 171);
+    text-align: center;
+    justify-content: center;
+    overflow-x: hidden;
+  }
+  .climbCard {
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 5px;
+    width: 350px;
+    height: 300px;
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+    box-shadow: 17px 13px 47px -9px rgba(115, 115, 115, 0.6);
+    -webkit-box-shadow: 17px 13px 47px -9px rgba(115, 115, 115, 0.6);
+    -moz-box-shadow: 17px 13px 47px -9px rgba(115, 115, 115, 0.6);
+  }
+}

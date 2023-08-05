@@ -1,0 +1,4 @@
+.anim_gradient {
+  background: linear-gradient(180deg, #a9c9ff 0%, #ffbbec 100%);
+  backgroundsize: "400% 400%";
+}
