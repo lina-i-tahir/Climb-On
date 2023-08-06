@@ -1,13 +1,4 @@
-/* .body {
-  background: url(./duotone.png) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-} */
-
 .about {
-  backdrop-filter: blur(3px);
   margin: 150px 100px 0px 100px;
   text-align: center;
   justify-content: center;
@@ -22,7 +13,6 @@
     margin: 100px 10px 0px 10px;
     width: 10%x;
     font-size: 70%;
-    backdrop-filter: blur(2px);
   }
   .about p {
     font-size: 160%;
@@ -38,7 +28,6 @@
     margin: 100px 10px 0px 10px;
     width: 10%x;
     font-size: 70%;
-    backdrop-filter: blur(2px);
   }
   .about p {
     font-size: 250%;

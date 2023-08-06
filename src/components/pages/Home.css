@@ -14,7 +14,6 @@
   color: rgb(35, 35, 35);
 }
 .home-background {
-  backdrop-filter: blur(2px);
 }
 .arrowIcon {
   margin: 0% 0% 0% 50%;
