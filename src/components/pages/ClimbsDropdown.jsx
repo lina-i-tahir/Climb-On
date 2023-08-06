@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ApiHurricane from "./ApiHurricane";
 import ApiSmithRock from "./ApiSmithRock";
+import "./ClimbsDropdown.css";
 
 const ClimbsDropdown = () => {
   const [climb, setClimb] = useState("Ready");
@@ -36,7 +37,7 @@ const ClimbsDropdown = () => {
   return (
     <div className="container mt-3">
       <div>
-        <h1>hello!</h1>
+        <h1 className="h1-climbs">climbs ahead!</h1>
       </div>
       <div className="mt-4">
         <select className="form-select" value={climb} onChange={handleOnChange}>
