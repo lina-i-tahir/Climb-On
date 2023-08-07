@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./ClimbsCards.css";
+import "./ApiCards.css";
 import { useSmithRock } from "../hooks/useSmithRock";
 // import ClimbSummary from "./ClimbSummary";
 // import { Scrollbar } from "react-scrollbars-custom";

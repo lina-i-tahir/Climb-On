@@ -18,7 +18,7 @@ const Home = () => {
                 opacity: 100,
               }}
               transition={{
-                duration: 0.8,
+                duration: 0.5,
               }}
             >
               Where's your <br></br>climb today?

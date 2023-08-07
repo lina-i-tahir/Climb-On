@@ -46,6 +46,7 @@ const ClimbsDropdown = () => {
           <option value="smithrock">Smith Rock</option>
         </select>
       </div>
+      <br></br>
       {hurricaneContentVisible && <ApiHurricane />}
       {smithRockContentVisible && <ApiSmithRock />}
     </div>
