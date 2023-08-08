@@ -2,12 +2,22 @@ import "./Home.css";
 import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
+import { useEffect, useRef } from "react";
+import { motion, useInView } from "framer-motion";
+import About from "./About";
+import ClimbsMain from "./ClimbsMain";
 
 const Home = () => {
+  const ref = useRef();
+  const isInView = useInView(ref, { once: true });
+
+  useEffect(() => {
+    console.log(isInView);
+  }, [isInView]);
+
   return (
     <>
-      <div className="home-background">
+      <div ref={ref} className="home-background">
         <Link to="/climbsmain">
           <h1 className="home">
             <motion.div
@@ -24,7 +34,7 @@ const Home = () => {
               Where's your <br></br>climb today?
             </motion.div>
           </h1>
-          <div className="arrowIcon">
+          {/* <div className="arrow-icon">
             <motion.div
               className="arrow-ani"
               animate={{ y: 10, opacity: 100 }}
@@ -37,9 +47,11 @@ const Home = () => {
             >
               <FontAwesomeIcon icon={faAnglesDown} size="2xl" />
             </motion.div>
-          </div>
+          </div> */}
         </Link>
       </div>
+      <About />
+      <ClimbsMain />
     </>
   );
 };

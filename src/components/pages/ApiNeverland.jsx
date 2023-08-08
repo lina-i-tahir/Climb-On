@@ -1,8 +1,8 @@
 import "./ApiCards.css";
-import { useHurricane } from "../hooks/useHurricane";
+import { useNeverland } from "../hooks/useNeverland";
 
-const HurricaneList = () => {
-  const { error, loading, data } = useHurricane();
+const NeverlandList = () => {
+  const { error, loading, data } = useNeverland();
 
   if (loading) return <p>please wait while the awesomeness loads</p>;
   if (error) return `Error ${error.message}`;
@@ -33,4 +33,4 @@ const HurricaneList = () => {
   );
 };
 
-export default HurricaneList;
+export default NeverlandList;

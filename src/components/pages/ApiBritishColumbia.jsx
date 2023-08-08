@@ -1,8 +1,8 @@
 import "./ApiCards.css";
-import { useHurricane } from "../hooks/useHurricane";
+import { useBritishColumbia } from "../hooks/useBritishColumbia";
 
-const HurricaneList = () => {
-  const { error, loading, data } = useHurricane();
+const BritishColumbiaList = () => {
+  const { error, loading, data } = useBritishColumbia();
 
   if (loading) return <p>please wait while the awesomeness loads</p>;
   if (error) return `Error ${error.message}`;
@@ -33,4 +33,4 @@ const HurricaneList = () => {
   );
 };
 
-export default HurricaneList;
+export default BritishColumbiaList;

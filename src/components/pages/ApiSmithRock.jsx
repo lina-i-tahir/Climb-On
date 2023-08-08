@@ -1,12 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import "./ApiCards.css";
 import { useSmithRock } from "../hooks/useSmithRock";
-// import ClimbSummary from "./ClimbSummary";
-// import { Scrollbar } from "react-scrollbars-custom";
 
 const SmithRockList = () => {
-  // const [selected, setSelected] = useState();
-
   const { error, loading, data } = useSmithRock();
 
   if (loading) return <p>please wait while the awesomeness loads</p>;

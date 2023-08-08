@@ -1,10 +1,17 @@
 import "./About.css";
-import { motion } from "framer-motion";
+import { motion, useInView } from "framer-motion";
+import { useRef, useEffect } from "react";
 
 const About = () => {
+  const ref = useRef();
+  const isInView = useInView(ref, { once: true });
+
+  useEffect(() => {
+    console.log(isInView);
+  }, [isInView]);
   return (
     <>
-      <div className="about">
+      <div ref={ref} className="about">
         <h1 className="about-h1">Oh hey there!</h1>
         <motion.div
           className="about-h1-ani"
