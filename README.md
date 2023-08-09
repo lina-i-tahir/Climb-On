@@ -64,13 +64,9 @@ Google the heck out of everything.
 Example of API:
 ![api](src/assets/example_api.jpg)
 
-Openbeta: https://api.openbeta.io/
-Git: https://github.com/OpenBeta/openbeta-graphql
-Google Maps API
-
----
-
-## Acknowledgments
+- Openbeta: https://api.openbeta.io/
+- Openbeta Git: https://github.com/OpenBeta/openbeta-graphql
+- Google Maps API
 
 ---
 
