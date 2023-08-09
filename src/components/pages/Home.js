@@ -31,7 +31,7 @@ const Home = () => {
                 duration: 0.5,
               }}
             >
-              Where's your <br></br>project today?
+              What's your <br></br>project today?
             </motion.div>
           </h1>
           {/* <div className="arrow-icon">

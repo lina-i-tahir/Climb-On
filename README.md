@@ -32,13 +32,17 @@ Map Page
 
 ### User Stories
 
-User will be able to view the the list of climbs available under climbs section.
+Home Page:
+User will be on the landing page where they can scroll through the website.
 
-A Google Map is found under Map, with current location of the user narrowed down, when clicked on the location icon.
+About Page:
+User can find more information about us!
 
-The Map will auto suggest places when keyed in prompts.
+Climb Page:
+User can find available climbs(projects) to climb. User is able to copy and paste the coordinates from the climbs into the map, and it will show the route, distance and duration from origin to destination.
 
-User is able to copy and paste the coordinates from the climbs into the map, and it will show the route, distance and duration from origin to destination.
+Map Page:
+User can use the map to narrow down their location by pressing the location arrow, key in the origin or destination and the map will auto suggest places when keyed in prompts.
 
 ---
 
@@ -58,7 +62,7 @@ Google the heck out of everything.
 ## APIs Used
 
 Example of API:
-![GraphlAPI] (src/assets/example_api.jpg)
+![api](src/assets/example_api.jpg)
 
 Openbeta: https://api.openbeta.io/
 Git: https://github.com/OpenBeta/openbeta-graphql
