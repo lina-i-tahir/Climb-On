@@ -33,18 +33,6 @@ const ClimbsDropdown = () => {
     setClimb(e.target.value);
   };
 
-  // const makeFirstLetterCapital = (str) => {
-  //   return str.charAt(0).toUpperCase() + str.slice(1);
-  // };
-
-  // const renderResult = () => {
-  //   let result;
-  //   climb === "Ready?"
-  //     ? (result = "choose your climb")
-  //     : (result = makeFirstLetterCapital(climb));
-  //   return result;
-  // };
-
   return (
     <div className="h1-climbs-con">
       <div>

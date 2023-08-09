@@ -13,9 +13,19 @@
   }
   .h1-climbs-con p {
     font-size: 20px;
-    padding: 10px;
+    padding: 5px;
     justify-content: center;
     text-align: center;
+  }
+  .form-select {
+    font-size: 15px;
+    background-color: rgb(222, 222, 222);
+    color: rgb(35, 35, 35);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    box-shadow: 17px 13px 47px -9px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 17px 13px 47px -9px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 17px 13px 47px -9px rgba(0, 0, 0, 0.6);
   }
 }
 @media all and (min-width: 480px) and (max-width: 768px) {
