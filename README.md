@@ -1,4 +1,4 @@
-# climb on!
+# Climb on!
 
 Where you can find rock climbing routes, in the wild!
 
@@ -19,16 +19,16 @@ A rough idea of the website:
 End product:
 
 Home Page:
-![homepage](src/assets/homepage.jpg)
+![homepage](src/assets/homepage_demo.gif)
 
 About Page:
-![aboutpage](src/assets/aboutpage.jpg)
+![aboutpage](src/assets/aboutpage_demo.gif)
 
 Climb Page:
-![climbpage](src/assets/climbpage.jpg)
+![climbpage v1](src/assets/climbpage_demo.gif)
 
 Map Page
-![mappage](src/assets/mappage.jpg)
+![mappage](src/assets/mappage_demo.gif)
 
 ### User Stories
 
@@ -56,6 +56,9 @@ Google the heck out of everything.
 - To generate a link between the climb's latitude & longtitude with the map's input destination
 
 ## APIs Used
+
+Example of API:
+![GraphlAPI] (src/assets/example_api.jpg)
 
 Openbeta: https://api.openbeta.io/
 Git: https://github.com/OpenBeta/openbeta-graphql
