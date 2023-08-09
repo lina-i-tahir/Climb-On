@@ -1,5 +1,4 @@
 import "./App.css";
-import "./components/Button.css";
 import { Routes, Route } from "react-router-dom";
 import Home from "./components/pages/Home";
 import MapPage from "./components/pages/MapPage";

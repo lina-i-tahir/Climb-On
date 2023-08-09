@@ -1,6 +1,6 @@
 import "./Home.css";
-import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 import { useEffect, useRef } from "react";
 import { motion, useInView } from "framer-motion";
