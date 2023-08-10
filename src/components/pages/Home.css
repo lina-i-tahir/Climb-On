@@ -11,7 +11,7 @@
   color: rgb(35, 35, 35);
 }
 .arrow-icon {
-  margin: 30% 0% 0% 50%;
+  margin: 25% 0% 0% 50%;
 }
 @media all and (min-width: 320px) and (max-width: 479px) {
   .home-div {
@@ -25,7 +25,7 @@
     color: rgb(35, 35, 35);
   }
   .arrow-icon {
-    margin: 100% 0% 0% 50%;
+    margin: 180% 0% 0% 50%;
   }
 }
 @media all and (min-width: 480px) and (max-width: 768px) {
@@ -40,6 +40,6 @@
     color: rgb(35, 35, 35);
   }
   .arrow-icon {
-    margin: 0% 0% 0% 50%;
+    margin: 80% 0% 0% 50%;
   }
 }
