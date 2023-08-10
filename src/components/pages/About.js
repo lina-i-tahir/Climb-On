@@ -11,9 +11,10 @@ const About = () => {
   }, [isInView]);
   return (
     <>
-      <div ref={ref} className="about">
+      <div className="about">
         <h1 className="about-h1">Oh hey there!</h1>
         <motion.div
+          ref={ref}
           className="about-h1-ani"
           animate={{ y: -20, opacity: 100 }}
           initial={{

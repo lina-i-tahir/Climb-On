@@ -4,7 +4,7 @@
   flex-direction: column;
   z-index: 1;
   background: #232329;
-  padding: 3%;
+  padding: 2%;
   margin: 5px;
   color: azure;
   top: 0%;
@@ -20,7 +20,7 @@
   resize: none;
   flex: 0 0 100px;
 }
-input[type="text"] {
+input {
   height: 40px;
   width: 250px;
   margin: 0px 3px 1px 3px;
@@ -30,7 +30,7 @@ input[type="text"] {
   border-radius: 20px;
 }
 
-input[type="text"]:focus {
+input:focus {
   border: 2px solid #ffffff;
 }
 .direction-box-lower {
@@ -100,17 +100,17 @@ input[type="text"]:focus {
     resize: none;
     flex: 0 0 100px;
   }
-  input[type="text"] {
+  input {
     height: 30px;
     width: 135px;
-    margin: 0px 3px 1px 3px;
+    margin: 0px 0px 1px -10px;
     resize: none;
     flex: 0 0 100px;
     border: 2px solid #555555;
     border-radius: 20px;
   }
 
-  input[type="text"]:focus {
+  input:focus {
     border: 2px solid #ffffff;
   }
   .direction-box-lower {
@@ -164,17 +164,17 @@ input[type="text"]:focus {
     resize: none;
     flex: 0 0 100px;
   }
-  input[type="text"] {
+  input {
     height: 40px;
-    width: 205px;
-    margin: 0px 3px 1px 3px;
+    width: 230px;
+    margin: 0px 0px 1px -10px;
     resize: none;
     flex: 0 0 100px;
     border: 2px solid #555555;
     border-radius: 20px;
   }
 
-  input[type="text"]:focus {
+  input:focus {
     border: 2px solid #ffffff;
   }
   .direction-box-lower {

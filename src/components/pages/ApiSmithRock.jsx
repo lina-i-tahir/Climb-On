@@ -19,7 +19,9 @@ const SmithRockList = () => {
               <li> Tries: {climbs.totalClimbs}</li>
               <li> Coordinates: </li>
               <li>
-                {climbs.metadata.lat} , {climbs.metadata.lng}
+                <code>
+                  {climbs.metadata.lat} , {climbs.metadata.lng}
+                </code>
               </li>
               <li>{climbs.content.description}</li>
             </ul>

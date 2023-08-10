@@ -1,41 +1,45 @@
-/* body {
-  background: url(./duotone.png) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  z-index: -2;
-} */
+.home-div {
+  height: 100vh;
+}
+
 .home {
   margin-top: 10%;
-  height: 100vh;
+
   text-align: center;
   font-size: 100px;
   font-weight: 700;
   color: rgb(35, 35, 35);
 }
-.arrowIcon {
-  margin: 0% 0% 0% 50%;
+.arrow-icon {
+  margin: 30% 0% 0% 50%;
 }
 @media all and (min-width: 320px) and (max-width: 479px) {
+  .home-div {
+    height: 280vh;
+  }
   .home {
     margin-top: 20%;
     text-align: center;
-    font-size: 400%;
+    font-size: 330%;
     font-weight: 700;
     color: rgb(35, 35, 35);
   }
   .arrow-icon {
-    margin-top: -500px;
+    margin: 100% 0% 0% 50%;
   }
 }
 @media all and (min-width: 480px) and (max-width: 768px) {
+  .home-div {
+    height: 280vh;
+  }
   .home {
     margin-top: 20%;
-
     text-align: center;
     font-size: 80px;
     font-weight: 700;
     color: rgb(35, 35, 35);
+  }
+  .arrow-icon {
+    margin: 0% 0% 0% 50%;
   }
 }

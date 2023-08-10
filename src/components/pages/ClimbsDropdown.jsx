@@ -4,6 +4,7 @@ import ApiSmithRock from "./ApiSmithRock";
 import ApiBritishColumbia from "./ApiBritishColumbia";
 import ApiNeverland from "./ApiNeverland";
 import "./ClimbsDropdown.css";
+import { motion } from "framer-motion";
 
 const ClimbsDropdown = () => {
   const [climb, setClimb] = useState("Ready");
@@ -37,8 +38,19 @@ const ClimbsDropdown = () => {
     <div className="h1-climbs-con">
       <div>
         <h1 className="h1-climbs">Climbs ahead!</h1>
-
-        <p>copy & paste the route to the map to be on your way!</p>
+        <motion.div
+          className="about-h1-ani"
+          animate={{ y: -20, opacity: 100 }}
+          initial={{
+            y: -50,
+            opacity: 0,
+          }}
+          transition={{
+            duration: 0.5,
+          }}
+        >
+          <p>copy & paste the route to the map to be on your way!</p>
+        </motion.div>
       </div>
       <div className="dropdown">
         <select className="form-select" value={climb} onChange={handleOnChange}>
