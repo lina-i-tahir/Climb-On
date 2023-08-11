@@ -1,1 +1,0 @@
-self.__SSG_MANIFEST=new Set(["\u002F","\u002Fa\u002F[[...slug]]","\u002Fareas\u002F[id]","\u002Fclimbs\u002F[id]","\u002Fcrag\u002F[id]","\u002Fedit","\u002Fp\u002F[...slug]","\u002Fpulse","\u002Fu\u002F[...slug]","\u002Fu2\u002F[...slug]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()

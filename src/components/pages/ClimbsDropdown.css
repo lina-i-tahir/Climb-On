@@ -50,7 +50,7 @@
 @media all and (min-width: 480px) and (max-width: 768px) {
   .h1-climbs {
     margin: 100px 0px 0px 0px;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 700;
     color: rgb(35, 35, 35);
   }
