@@ -5,4 +5,24 @@ import image4 from "./assets/4_pexels-ronny-siegel-10581456.jpg";
 import image5 from "./assets/6_pexels-katya-wolf-8729239.jpg";
 import image6 from "./assets/5_pexels-nicolas-diaz-14241729.jpg";
 
-export default [image1, image2, image3, image4, image5, image6];
+// const [image1, image2, image3, image4, image5, image6]; = () => {
+//   return [image1, image2, image3, image4, image5, image6];
+// };
+
+// export default i
+// // export default [image1, image2, image3, image4, image5, image6];
+
+const images = () => {
+  return (
+    <>
+      {image1}
+      {image2}
+      {image3}
+      {image4}
+      {image5}
+      {image6}
+    </>
+  );
+};
+
+export default images;

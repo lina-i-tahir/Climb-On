@@ -2,7 +2,6 @@ import "./Home.css";
 import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
-
 import { motion } from "framer-motion";
 import About from "./About";
 import ClimbsMain from "./ClimbsMain";
