@@ -1,18 +1,16 @@
 .item {
-  min-height: 15rem;
-  min-width: 15rem;
+  min-height: 400px;
+  min-width: 2050px;
   padding: 40px;
 }
 .item img {
-  width: 100%;
-  height: 100%;
   border-radius: 30px;
 }
 .img {
-  width: 350px;
-  height: 500px;
+  width: 250px;
+  height: 350px;
   display: flex;
-  gap: 100px;
+  gap: 80px;
 }
 .inner-carousel {
   display: flex;
@@ -25,10 +23,8 @@
 @media all and (min-width: 320px) and (max-width: 479px) {
   .item {
     min-height: 400px;
-    min-width: 1650px;
+    min-width: 1900px;
     padding: 40px;
-  }
-  .item {
     border-radius: 30px;
   }
   .img {
@@ -52,8 +48,6 @@
     min-height: 500px;
     min-width: 2050px;
     padding: 40px;
-  }
-  .item {
     border-radius: 30px;
   }
 
